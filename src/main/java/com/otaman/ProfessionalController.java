@@ -22,7 +22,7 @@ public class ProfessionalController {
     @RequestMapping(value="/professional/nodes",
             method = RequestMethod.GET)
     public String showNodes(ModelMap model) {
-        return "middle/nodes";
+        return "professional/nodes";
     }
 
     @RequestMapping(value="/professional/modify-node",
