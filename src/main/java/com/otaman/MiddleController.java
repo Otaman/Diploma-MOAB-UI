@@ -18,4 +18,10 @@ public class MiddleController {
     public String createJob(ModelMap model) {
         return "middle/create-job";
     }
+
+    @RequestMapping(value="/middle/nodes",
+            method = RequestMethod.GET)
+    public String showNodes(ModelMap model) {
+        return "middle/nodes";
+    }
 }
