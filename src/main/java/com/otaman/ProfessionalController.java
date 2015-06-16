@@ -16,7 +16,7 @@ public class ProfessionalController {
     @RequestMapping(value="/professional/create-job",
             method = RequestMethod.GET)
     public String createJob(ModelMap model) {
-        return "middle/create-job";
+        return "professional/create-job";
     }
 
     @RequestMapping(value="/professional/nodes",
