@@ -24,4 +24,10 @@ public class MiddleController {
     public String showNodes(ModelMap model) {
         return "middle/nodes";
     }
+
+    @RequestMapping(value="/middle/modify-node",
+            method = RequestMethod.GET)
+    public String modifyNode(ModelMap model) {
+        return "middle/modify-node";
+    }
 }
