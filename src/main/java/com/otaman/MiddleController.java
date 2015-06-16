@@ -12,4 +12,10 @@ public class MiddleController {
     public String showJobs(ModelMap model) {
         return "middle/jobs";
     }
+
+    @RequestMapping(value="/middle/create-job",
+            method = RequestMethod.GET)
+    public String createJob(ModelMap model) {
+        return "middle/create-job";
+    }
 }
