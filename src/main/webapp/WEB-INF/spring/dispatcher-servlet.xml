@@ -18,6 +18,7 @@
 
     <mvc:resources location="/WEB-INF/pages/beginner/" mapping="/beginner/**"/>
     <mvc:resources location="/WEB-INF/pages/middle/" mapping="/middle/**"/>
+    <mvc:resources location="/WEB-INF/pages/professional/" mapping="/professional/**"/>
 
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/pages/"/>
