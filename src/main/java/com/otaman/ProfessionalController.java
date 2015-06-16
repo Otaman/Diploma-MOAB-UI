@@ -28,6 +28,6 @@ public class ProfessionalController {
     @RequestMapping(value="/professional/modify-node",
             method = RequestMethod.GET)
     public String modifyNode(ModelMap model) {
-        return "middle/modify-node";
+        return "professional/modify-node";
     }
 }
